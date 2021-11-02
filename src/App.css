@@ -1,38 +1,224 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+* {
+  box-sizing: border-box;
+  /* background-image: url(../src/assets/image/bg1.png); */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.get-start {
+  color: #ffffff;
+  text-align: center;
+  font-size: 62px;
+  margin-top: 40px;
+  font-family: "Work Sans", Black 900;
+  font-weight: bold;
+}
+.logo-style {
+  margin-bottom: 85px;
+  text-align: center;
+}
+.desk {
+  color: #ffffff;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Work Sans", Extra-light 200 italic;
+  /* margin-bottom: 280px; */
+  /* font-size: 62px;
+  margin-top: 151px; */
+}
+
+.button {
+  padding: 8px 83px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 3px #999;
+}
+
+.button:hover {
+  background-color: #c7c7c7;
+}
+
+.button:active {
+  background-color: #969696;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button-click {
+  /* position: absolute; */
+  margin-top: -165px;
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.ket {
+  align-items: center;
+}
+
+#backgrounds {
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #eebece;
+  background-image: url("../src/assets/image/bg1.png");
+}
+
+.defin {
+  background-color: #eebece;
+}
+.logo-defin {
+  text-align: right;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 17px 0px 17px 213px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 2000px) {
+  /* For mobile phones: */
+  .header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 17px 0px 17px 213px;
   }
-  to {
-    transform: rotate(360deg);
+  [class*="col-"] {
+    width: 100%;
   }
+}
+
+@media only screen and (max-width: 670px) {
+  /* For mobile phones: */
+  .header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 17px 0px 17px 24px;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+strong {
+  color: #0b24fb;
+}
+
+.deff {
+  text-align: right;
+}
+
+.it {
+  text-align: right;
+  color: #ffffff;
 }
