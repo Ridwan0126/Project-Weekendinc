@@ -11,9 +11,13 @@ class Footer extends Component {
     return (
       <div>
         <footer className="footer">
-          <span className="text-muted">
-            Muhamad Nur Ridwan || 2021 @CobaAPI
-          </span>
+          <div>
+            <div className="wkn">
+              <p className="tbl">wknd</p>
+              <div>@2020</div>
+            </div>
+          </div>
+          <div className="cls">alpha version 0.1</div>
         </footer>
       </div>
     );
