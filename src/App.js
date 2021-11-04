@@ -1,12 +1,23 @@
 import "./App.css";
-import { Body, Footer, Header } from "./components";
+import { Footer, Header } from "./components";
+import Home from "./pages/Home";
+import Definitions from "./pages/Definitions";
+import About from "./pages/About";
+import Help from "./pages/Help";
+import You from "./pages/You/You";
 
 function App() {
   return (
     <>
-      <Header />
-      <Body />
-      <Footer />
+      <div className="row">
+        <Header />
+        <Home />
+        <Definitions />
+        <About />
+        <Help />
+        <You />
+        <Footer />
+      </div>
     </>
   );
 }

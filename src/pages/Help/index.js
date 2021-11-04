@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Icons from "../../assets/icon/Oval.svg";
 import "./Help.css";
+import Icons from "../../assets/icon/Oval.svg";
 
 export default class Help extends Component {
   constructor(props) {

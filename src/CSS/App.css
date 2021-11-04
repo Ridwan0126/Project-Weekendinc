@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.get-start {
+  color: #ffffff;
+  text-align: center;
+  font-size: 62px;
+  margin-top: 40px;
+  font-family: "Work Sans", Black 900;
+  font-weight: bold;
+}
+
+.logo-style {
+  margin-bottom: 85px;
+  text-align: center;
+}
+
+.desk {
+  color: #ffffff;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Work Sans", Extra-light 200 italic;
+}
+
+.ket {
+  align-items: center;
+}
+
+#backgrounds {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #eebece;
+  background-image: url("../src/assets/image/bg1.png");
+}
+
+.abouts {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+}
+
+.test {
+  margin-top: -100px;
+  font-weight: bold;
+  font-family: "Work Sans", Black 900;
+  font-size: 32px;
+}
+
+.defin {
+  background-color: #eebece;
+}
+
+.logo-defin {
+  text-align: right;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.cls {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 50px;
+  padding: 0px 10px 0px 10px;
+}
+
+.wkn {
+  display: flex;
+  font-size: 15px;
+}
+
+.tbl {
+  font-weight: bold;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+strong {
+  color: #0b24fb;
+}
+
+.carus {
+  text-align: left;
+  padding: 10px;
+}
+
+.tebal {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Work Sans", Black 900;
+}
+
+.Res {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+.row {
+  background-color: black;
+}
