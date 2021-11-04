@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
-/* 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  font-family: "Fira Sans", sans-serif;
-  background: linear-gradient(147deg, #f6b323 0%, #f23b26 74%);
-} */
+
 .blog-card {
   position: absolute;
   height: 370px;

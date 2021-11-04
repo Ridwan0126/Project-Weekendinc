@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Carousel from "react-elastic-carousel";
 import Item from "./item";
-import Slider from "react-slick";
-import Help from "../Help";
 
 export default class About extends Component {
   render() {
