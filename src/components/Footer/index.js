@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Alpha } from "../../assets/image";
 
 class Footer extends Component {
   constructor(props) {
@@ -17,7 +18,15 @@ class Footer extends Component {
               <div>@2020</div>
             </div>
           </div>
-          <div className="cls">alpha version 0.1</div>
+          <div>
+            <img
+              src={Alpha}
+              alt="Girl in a jacket"
+              width="100"
+              height="20"
+              className="img-logo"
+            />
+          </div>
         </footer>
       </div>
     );
