@@ -21,6 +21,7 @@ export default class Definitions extends Component {
           <div className="it">
             <i>-Weekend team</i>
           </div>
+          <p className="test">Testimonial</p>
         </div>
       </div>
     );

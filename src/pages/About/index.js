@@ -7,7 +7,6 @@ export default class About extends Component {
     return (
       <>
         <div className="abouts">
-          <p className="test">Testimonial</p>
           <div className="App">
             <Carousel breakPoints={breakPoints}>
               <Item>
