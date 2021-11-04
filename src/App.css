@@ -323,7 +323,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -220px;
+    margin-top: -290px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -332,7 +332,7 @@ html {
     font-size: 32px;
     font-weight: bold;
     margin-top: -250px;
-    margin-left: 20px;
+    margin-left: 50px;
   }
   .lorem {
     text-align: left;
