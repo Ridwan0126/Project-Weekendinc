@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Bitmap } from "../../assets/image";
+import "./Header.css";
 
 class Header extends Component {
   constructor(props) {
