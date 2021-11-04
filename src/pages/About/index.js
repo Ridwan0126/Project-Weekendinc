@@ -18,9 +18,9 @@ export default class About extends Component {
               </Item>
               <Item>
                 <p className="carus">
-                  <p className="tebal">Blu Kicks</p>
-                  Please Where you can leverage tools and software to free up
-                  time to focus on growing
+                  <p className="tebal">Angelus</p>
+                  All those apps took me months to get running. Now the site
+                  practically runs itself!
                 </p>
               </Item>
               <Item>
