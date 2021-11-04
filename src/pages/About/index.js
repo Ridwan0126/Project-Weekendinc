@@ -3,47 +3,61 @@ import Carousel from "react-elastic-carousel";
 import Item from "./item";
 
 export default class About extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      Ceck: [],
+    };
+  }
+  componentDidMount() {
+    const urlFetch = fetch(
+      "https://wknd-take-home-challenge-api.herokuapp.com/testimonial"
+    );
+    urlFetch
+      .then((res) => {
+        if (res.status === 200) return res.json();
+      })
+      .then((resJson) => {
+        const dataArr = resJson.map((Ceck) => {
+          return {
+            id: Ceck.id,
+            testimony: Ceck.testimony,
+            by: Ceck.by,
+          };
+        });
+        console.log("JSONDATA:", dataArr);
+        this.setState({
+          Ceck: dataArr,
+        });
+      });
+  }
+
+  getData = (Ceck) => {
+    console.log("list penjualan in body", Ceck);
+
+    this.setState({
+      Ceck: Ceck,
+    });
+  };
   render() {
+    const { Ceck } = this.state;
+    console.log("Ceck", Ceck);
     return (
       <>
         <div className="abouts">
           <div className="App">
             <Carousel breakPoints={breakPoints}>
-              <Item>
-                <p className="carus">
-                  <p className="tebal">Blu Kicks</p>
-                  Please Where you can leverage tools and software to free up
-                  time to focus on growing
-                </p>
-              </Item>
-              <Item>
-                <p className="carus">
-                  <p className="tebal">Angelus</p>
-                  All those apps took me months to get running. Now the site
-                  practically runs itself!
-                </p>
-              </Item>
-              <Item>
-                <p className="carus">
-                  <p className="tebal">Blu Kicks</p>
-                  Please Where you can leverage tools and software to free up
-                  time to focus on growing
-                </p>
-              </Item>
-              <Item>
-                <p className="carus">
-                  <p className="tebal">Blu Kicks</p>
-                  Please Where you can leverage tools and software to free up
-                  time to focus on growing
-                </p>
-              </Item>
-              <Item>
-                <p className="carus">
-                  <p className="tebal">Blu Kicks</p>
-                  Please Where you can leverage tools and software to free up
-                  time to focus on growing
-                </p>
-              </Item>
+              {Ceck.map((data) => (
+                <>
+                  <Item>
+                    <p className="carus">
+                      <p className="tebal">{data.by}</p>
+                      {data.testimony}
+                    </p>
+                  </Item>
+                </>
+              ))}
             </Carousel>
           </div>
           <div>
