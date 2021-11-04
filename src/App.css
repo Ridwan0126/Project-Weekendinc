@@ -243,7 +243,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -230px;
+    margin-top: -210px;
     height: 100vh;
     margin-left: 150px;
     margin-right: 150px;
@@ -362,7 +362,7 @@ html {
   .hlp-tps {
     text-align: left;
     color: #ffffff;
-    margin-top: 80px;
+    margin-top: 90px;
     font-weight: bold;
     font-size: 32px;
     margin-left: 20px;
