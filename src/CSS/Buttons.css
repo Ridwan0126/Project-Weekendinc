@@ -1,0 +1,56 @@
+.button {
+  padding: 8px 83px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 3px #999;
+}
+
+.button:hover {
+  background-color: #c7c7c7;
+}
+
+.button:active {
+  background-color: #969696;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-click {
+  margin-top: -165px;
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.button1 {
+  padding: 3px 3px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 3px #999;
+  margin-top: -5px;
+}
+
+.button1:hover {
+  background-color: #c7c7c7;
+}
+
+.button1:active {
+  background-color: #969696;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-click1 {
+  margin-left: auto;
+}
