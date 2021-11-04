@@ -326,13 +326,13 @@ html {
     margin-top: -290px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   .pov {
     font-size: 32px;
     font-weight: bold;
     margin-top: -230px;
-    margin-left: 50px;
+    margin-left: 20px;
   }
   .lorem {
     text-align: left;
