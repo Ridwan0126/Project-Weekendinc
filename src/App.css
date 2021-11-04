@@ -351,7 +351,7 @@ html {
     margin-left: 20px;
   }
   .test {
-    /* margin-top: -100px; */
+    text-align: left;
     font-weight: bold;
     font-family: "Work Sans", Black 900;
     font-size: 32px;
