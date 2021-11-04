@@ -243,7 +243,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -210px;
+    margin-top: -230px;
     height: 100vh;
     margin-left: 150px;
     margin-right: 150px;
@@ -323,9 +323,10 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -320px;
+    margin-top: -220px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
   }
   .pov {
     font-size: 32px;
