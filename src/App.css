@@ -161,7 +161,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -230px;
+    margin-top: -260px;
     height: 100vh;
     margin-left: 280px;
     margin-right: 280px;
@@ -192,8 +192,9 @@ html {
     font-weight: bold;
     font-family: "Work Sans", Black 900;
     font-size: 32px;
-    margin-bottom: 35px;
+    margin-bottom: 65px;
     color: #ffffff;
+    text-align: center;
   }
 
   .footer {
@@ -355,6 +356,7 @@ html {
     font-family: "Work Sans", Black 900;
     font-size: 32px;
     margin-left: 20px;
+    margin-bottom: 65px;
     color: #ffffff;
   }
   .hlp-tps {
