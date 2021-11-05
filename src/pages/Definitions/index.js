@@ -6,7 +6,7 @@ export default class Definitions extends Component {
     return (
       <div className="defin">
         <div className="logo-defin">
-          <img src={animation} alt="weekendinc" width="158" height="150" />
+          <img src={animation} alt="weekendinc" width="198" height="190" />
         </div>
 
         <div>

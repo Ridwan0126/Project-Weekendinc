@@ -59,6 +59,7 @@
 
 .logo-defin {
   text-align: right;
+  margin-top: 75px;
 }
 .row::after {
   content: "";
