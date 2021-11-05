@@ -51,8 +51,16 @@ export default class Help extends Component {
           <>
             <div className="hlps">
               <div className="container">
-                <img src={item.image} alt="Avatar" class="image" />
-                <div className="overlay">
+                <div>
+                  <img
+                    src={item.image}
+                    alt="Avatar"
+                    class="image"
+                    width="388"
+                    height="228"
+                  />
+                </div>
+                <div className="content">
                   <div>{item.title}</div>
                   <div className="button-click1">
                     <button

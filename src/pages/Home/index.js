@@ -23,7 +23,7 @@ export default class Home extends Component {
           <i>Stay active with a little workout</i>
         </div>
         <div className="logo-style">
-          <img src={logos} alt="Girl in a jacket" width="194" height="350" />
+          <img src={logos} alt="Girl in a jacket" width="184" height="305" />
         </div>
         <div className="button-click">
           <button className="button" onClick={this.Clicked}>
