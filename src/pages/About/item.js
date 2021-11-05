@@ -8,6 +8,6 @@ export default styled.div`
   width: 100%;
   background-color: #ffff;
   color: black;
-  // margin: 20px 15px;
+  margin: 20px 15px;
   margin-left: 15px;
 `;

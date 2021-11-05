@@ -1,13 +1,18 @@
 import React, { Component } from "react";
-// import swal from "sweetalert";
+import swal from "sweetalert";
 import { logos } from "../../assets/image";
 
 export default class Home extends Component {
-  // componentDidMount(){
-  // }
-  // Click = () => {
-  //   swal({})
-  // }
+  Clicked = () => {
+    swal({
+      title: "WEEKENDINC",
+      text: "Hallo, Welcome To Weekendind :)",
+      icon: "success",
+      button: false,
+      timer: 2500,
+    });
+  };
+
   render() {
     return (
       <div id="backgrounds">
@@ -21,7 +26,9 @@ export default class Home extends Component {
           <img src={logos} alt="Girl in a jacket" width="164" height="275" />
         </div>
         <div className="button-click">
-          <button className="button">Let's Go</button>
+          <button className="button" onClick={this.Clicked}>
+            Let's Go
+          </button>
         </div>
       </div>
     );

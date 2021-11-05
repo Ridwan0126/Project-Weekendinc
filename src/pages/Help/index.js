@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Help.css";
 import Icons from "../../assets/icon/Oval.svg";
+import swal from "sweetalert";
 
 export default class Help extends Component {
   constructor(props) {
@@ -54,7 +55,28 @@ export default class Help extends Component {
                 <div className="overlay">
                   <div>{item.title}</div>
                   <div className="button-click1">
-                    <button className="button1">
+                    <button
+                      className="button1"
+                      onClick={() => {
+                        swal({
+                          title: "PERHATIAN!",
+                          text: "Apakah anda yakin ingin melihat data ini ?",
+                          icon: "warning",
+                          buttons: true,
+                          dangerMode: true,
+                        }).then((willDelete) => {
+                          if (willDelete) {
+                            swal("Anda Berhasil Melihat Data", {
+                              title: item.title,
+                              text: item.slug,
+                              icon: "success",
+                            });
+                          } else {
+                            swal("Anda Batal Melihat data !!!");
+                          }
+                        });
+                      }}
+                    >
                       <img src={Icons} alt="Avatar"></img>
                     </button>
                   </div>

@@ -158,7 +158,7 @@ html {
     margin-bottom: 170px;
   }
   .App {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     margin-top: -260px;
@@ -357,7 +357,7 @@ html {
     font-family: "Work Sans", Black 900;
     font-size: 32px;
     margin-left: 20px;
-    margin-bottom: 55px;
+    margin-bottom: 65px;
     color: #ffffff;
   }
   .hlp-tps {

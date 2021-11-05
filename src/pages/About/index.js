@@ -40,6 +40,7 @@ export default class About extends Component {
       Ceck: Ceck,
     });
   };
+
   render() {
     const { Ceck } = this.state;
     console.log("Ceck", Ceck);
