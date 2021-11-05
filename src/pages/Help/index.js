@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import "./Help.css";
+import "./Help.css";
 import Icons from "../../assets/icon/Oval.svg";
 import swal from "sweetalert";
 
