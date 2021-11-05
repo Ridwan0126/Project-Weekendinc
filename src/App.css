@@ -7,49 +7,24 @@
 .get-start {
   color: #ffffff;
   text-align: center;
-  font-size: 62px;
-  margin-top: 40px;
+  font-size: 92px;
+  margin-top: 50px;
   font-family: "Work Sans", Black 900;
   font-weight: bold;
 }
+
 .logo-style {
   margin-bottom: 85px;
   text-align: center;
 }
+
 .desk {
   color: #ffffff;
   margin-top: -20px;
   margin-bottom: 20px;
   text-align: center;
+  font-size: 38px;
   font-family: "Work Sans", Extra-light 200 italic;
-}
-
-.button {
-  padding: 8px 83px;
-  font-size: 16px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: rgb(0, 0, 0);
-  background-color: #ffffff;
-  border: none;
-  border-radius: 50px;
-  box-shadow: 0 3px #999;
-}
-
-.button:hover {
-  background-color: #c7c7c7;
-}
-
-.button:active {
-  background-color: #969696;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.button-click {
-  margin-top: -165px;
-  text-align: center;
-  margin-bottom: 140px;
 }
 
 .ket {
@@ -81,6 +56,7 @@
 .defin {
   background-color: #eebece;
 }
+
 .logo-defin {
   text-align: right;
 }
@@ -97,24 +73,6 @@
 
 html {
   font-family: "Lucida Sans", sans-serif;
-}
-
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.menu li:hover {
-  background-color: #0099cc;
 }
 
 .aside {
@@ -137,90 +95,97 @@ html {
   display: flex;
   font-size: 15px;
 }
+
 .tbl {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 1440px) {
-  .header {
-    background-color: #ffffff;
-    color: #ffffff;
-    padding: 17px 0px 17px 213px;
-  }
-  .deff {
-    text-align: right;
-    margin: 0px 350px 0px 350px;
-  }
-  .it {
-    text-align: right;
-    color: #ffffff;
-    margin: 0px 350px 0px 350px;
-    margin-bottom: 170px;
-  }
-  .App {
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-    margin-top: -75px;
-    height: 100vh;
-    margin-left: 280px;
-    margin-right: 280px;
-  }
-  .pov {
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: -280px;
-  }
-  .lorem {
-    text-align: center;
-    margin: 0px 350px 0px 350px;
-  }
-  .abouts {
-    background-color: black;
-    color: #ffffff;
-    text-align: center;
-  }
-  .hlp-tps {
-    text-align: center;
-    color: #ffffff;
-    margin-top: 140px;
-    font-weight: bold;
-    font-size: 32px;
-  }
-  .test {
-    margin-top: -100px;
-    font-weight: bold;
-    font-family: "Work Sans", Black 900;
-    font-size: 32px;
-    margin-bottom: 65px;
-    color: #ffffff;
-    text-align: center;
-  }
+/* CSS untuk stye tampilan defalut*/
 
-  .footer {
-    background-color: #0b24fb;
-    color: #ffffff;
-    text-align: center;
-    font-size: 12px;
-    padding: 18px 300px 5px 300px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .Yos {
-    text-align: center;
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 90px;
-  }
-  .isi {
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: -90px;
-  }
-  [class*="col-"] {
-    width: 100%;
-  }
+.header {
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 17px 0px 17px 253px;
+}
+
+.deff {
+  text-align: right;
+  margin: 0px 450px 0px 450px;
+}
+
+.it {
+  text-align: right;
+  color: #ffffff;
+  margin: 0px 350px 0px 350px;
+  margin-bottom: 170px;
+}
+
+.App {
+  align-items: center;
+  justify-content: center;
+  margin-top: -75px;
+  height: 100vh;
+  margin-left: 280px;
+  margin-right: 280px;
+}
+
+.pov {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: -280px;
+}
+
+.lorem {
+  text-align: center;
+  margin: 0px 350px 0px 350px;
+}
+
+.abouts {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hlp-tps {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 140px;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.test {
+  margin-top: -100px;
+  font-weight: bold;
+  font-family: "Work Sans", Black 900;
+  font-size: 32px;
+  margin-bottom: 65px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer {
+  background-color: #0b24fb;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 18px 300px 5px 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Yos {
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 90px;
+}
+
+.isi {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: -90px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -302,6 +267,8 @@ html {
     width: 100%;
   }
 }
+
+/* CSS untuk style tampilan Handphone*/
 
 @media only screen and (max-width: 600px) {
   .header {
@@ -398,7 +365,7 @@ html {
 [class*="col-"] {
   width: 100%;
 }
-
+/* CSS untuk Style Teks*/
 strong {
   color: #0b24fb;
 }
@@ -422,6 +389,36 @@ strong {
 
 .row {
   background-color: black;
+}
+
+/* CSS untuk Button */
+
+.button {
+  padding: 18px 83px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 3px #999;
+}
+
+.button:hover {
+  background-color: #c7c7c7;
+}
+
+.button:active {
+  background-color: #969696;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button-click {
+  margin-top: -206px;
+  text-align: center;
+  margin-bottom: 150px;
 }
 
 .button1 {

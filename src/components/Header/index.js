@@ -14,8 +14,8 @@ class Header extends Component {
         <img
           src={Bitmap}
           alt="Girl in a jacket"
-          width="120"
-          height="33"
+          width="160"
+          height="43"
           className="img-logo"
         />
       </div>

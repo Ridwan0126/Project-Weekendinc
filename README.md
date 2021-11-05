@@ -11,5 +11,7 @@ Hasil Dapat dilihat langsung dari link berikut (https://weekendinc.netlify.app/)
 ### CATATAN
 
 => Jika di run langsung dari VSCode masih terdapat masalah dalam CSS, namun setelah deploy ke netlify tampilan normal dan bagus.
+
 => System normal dan baik
+
 => Kurang lebih sudah sama dengan Design
