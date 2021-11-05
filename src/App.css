@@ -119,7 +119,6 @@ html {
   text-align: right;
   color: #ffffff;
   margin: 0px 374px 170px 373px;
-  /* margin-bottom: 170px; */
   font-size: 21px;
 }
 
@@ -127,7 +126,6 @@ html {
   align-items: center;
   justify-content: center;
   margin-top: -75px;
-  /* height: 100vh; */
   margin-left: 300px;
   margin-right: 300px;
 }
@@ -465,7 +463,9 @@ html {
 [class*="col-"] {
   width: 100%;
 }
+
 /* CSS untuk Style Teks*/
+
 strong {
   color: #0b24fb;
 }

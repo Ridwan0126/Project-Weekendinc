@@ -2,12 +2,6 @@ import React, { Component } from "react";
 import { Bitmap } from "../../assets/image";
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {};
-  }
-
   render() {
     return (
       <div class="header">
