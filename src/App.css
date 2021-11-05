@@ -328,8 +328,6 @@ html {
     margin-right: 20px;
     margin-bottom: 50px;
   }
-  .Apps {
-  }
   .pov {
     font-size: 32px;
     font-weight: bold;
@@ -359,7 +357,7 @@ html {
     font-family: "Work Sans", Black 900;
     font-size: 32px;
     margin-left: 20px;
-    /* margin-bottom: 95px; */
+    margin-bottom: 55px;
     color: #ffffff;
   }
   .hlp-tps {
