@@ -130,10 +130,11 @@
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 180%;
+    width: 170%;
     display: flex;
     padding: 20px;
     margin-left: -18px;
+    margin-right: 100px;
   }
   .hlps {
     display: flex;
