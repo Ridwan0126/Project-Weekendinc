@@ -67,29 +67,8 @@
   display: block;
 }
 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
-
 html {
   font-family: "Lucida Sans", sans-serif;
-}
-
-.aside {
-  background-color: #33b5e5;
-  padding: 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.cls {
-  border-style: solid;
-  border-width: medium;
-  border-radius: 50px;
-  padding: 0px 10px 0px 10px;
 }
 
 .wkn {
@@ -133,12 +112,12 @@ html {
 .pov {
   font-size: 32px;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .lorem {
   text-align: center;
-  margin: 0px 374px 0px 373px;
+  margin: 50px 374px 0px 373px;
   font-size: 21px;
 }
 
@@ -146,14 +125,6 @@ html {
   background-color: black;
   color: #ffffff;
   text-align: center;
-}
-
-.hlp-tps {
-  text-align: center;
-  color: #ffffff;
-  margin-top: 140px;
-  font-weight: bold;
-  font-size: 32px;
 }
 
 .test {
@@ -187,7 +158,7 @@ html {
 .isi {
   text-align: center;
   color: #ffffff;
-  margin-bottom: -90px;
+  margin-bottom: -130px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -211,7 +182,6 @@ html {
     align-items: center;
     justify-content: center;
     margin-top: -230px;
-    /* height: 100vh; */
     margin-left: 150px;
     margin-right: 150px;
   }
@@ -229,13 +199,7 @@ html {
     color: #ffffff;
     text-align: center;
   }
-  .hlp-tps {
-    text-align: center;
-    color: #ffffff;
-    margin-top: 140px;
-    font-weight: bold;
-    font-size: 32px;
-  }
+
   .test {
     margin-top: -100px;
     font-weight: bold;
@@ -316,12 +280,7 @@ html {
     color: #ffffff;
     text-align: left;
   }
-  .Res {
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 70px;
-    margin-left: 20px;
-  }
+
   .test {
     text-align: left;
     font-weight: bold;
@@ -331,14 +290,7 @@ html {
     margin-bottom: 65px;
     color: #ffffff;
   }
-  .hlp-tps {
-    text-align: left;
-    color: #ffffff;
-    margin-top: 90px;
-    font-weight: bold;
-    font-size: 32px;
-    margin-left: 20px;
-  }
+
   .footer {
     background-color: #0b24fb;
     color: #ffffff;
@@ -410,12 +362,7 @@ html {
     color: #ffffff;
     text-align: left;
   }
-  .Res {
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 70px;
-    margin-left: 20px;
-  }
+
   .test {
     text-align: left;
     font-weight: bold;
@@ -425,14 +372,7 @@ html {
     margin-bottom: 65px;
     color: #ffffff;
   }
-  .hlp-tps {
-    text-align: left;
-    color: #ffffff;
-    margin-top: 90px;
-    font-weight: bold;
-    font-size: 32px;
-    margin-left: 20px;
-  }
+
   .footer {
     background-color: #0b24fb;
     color: #ffffff;
@@ -455,9 +395,6 @@ html {
     color: #ffffff;
     margin-bottom: 50px;
   }
-  [class*="col-"] {
-    width: 100%;
-  }
 }
 
 [class*="col-"] {
@@ -479,12 +416,6 @@ strong {
   font-weight: bold;
   font-size: 32px;
   font-family: "Work Sans", Black 900;
-}
-
-.Res {
-  font-size: 32px;
-  font-weight: bold;
-  margin-top: 70px;
 }
 
 .row {

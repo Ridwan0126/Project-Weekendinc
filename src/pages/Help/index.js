@@ -35,13 +35,6 @@ export default class Help extends Component {
       });
   }
 
-  getData = (data) => {
-    console.log("list penjualan in body", data);
-
-    this.setState({
-      data: data,
-    });
-  };
   render() {
     const { data } = this.state;
     console.log("data", data);

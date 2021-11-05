@@ -14,7 +14,7 @@ export default class You extends Component {
           </p>
         </div>
         <div className="logo2">
-          <img src={Icon2} alt="weekendinc" width="188" height="280" />
+          <img src={Icon2} alt="weekendinc" width="198" height="310" />
         </div>
       </div>
     );

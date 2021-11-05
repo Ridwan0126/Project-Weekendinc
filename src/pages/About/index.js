@@ -10,6 +10,7 @@ export default class About extends Component {
       Ceck: [],
     };
   }
+
   componentDidMount() {
     const urlFetch = fetch(
       "https://wknd-take-home-challenge-api.herokuapp.com/testimonial"
@@ -32,14 +33,6 @@ export default class About extends Component {
         });
       });
   }
-
-  getData = (Ceck) => {
-    console.log("list penjualan in body", Ceck);
-
-    this.setState({
-      Ceck: Ceck,
-    });
-  };
 
   render() {
     const { Ceck } = this.state;
@@ -78,7 +71,7 @@ export default class About extends Component {
               </p>
             </div>
             <div>
-              <p className="Res">Resource</p>
+              <p className="pov">Resource</p>
               <p className="lorem">
                 These cases are perfectly simple and easy to distinguish. In a
                 free hour, when power of choice is untrammeled and when nothing
@@ -86,7 +79,7 @@ export default class About extends Component {
               </p>
             </div>
             <div className="hlp">
-              <p className="hlp-tps">Help & Tips</p>
+              <p className="pov">Help & Tips</p>
             </div>
           </div>
         </div>
