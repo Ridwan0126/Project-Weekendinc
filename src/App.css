@@ -283,12 +283,14 @@ html {
   .deff {
     text-align: right;
     margin: 0px 20px 0px;
+    font-size: 16px;
   }
   .it {
     text-align: right;
     color: #ffffff;
     margin: 0px 20px 0px;
     margin-bottom: 160px;
+    font-size: 16px;
   }
   .App {
     display: flex;
