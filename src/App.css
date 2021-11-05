@@ -126,8 +126,8 @@ html {
 .App {
   align-items: center;
   justify-content: center;
-  margin-top: -75px;
-  height: 100vh;
+  /* margin-top: -75px; */
+  /* height: 100vh; */
   margin-left: 300px;
   margin-right: 300px;
 }
@@ -135,7 +135,7 @@ html {
 .pov {
   font-size: 32px;
   font-weight: bold;
-  margin-top: -480px;
+  margin-top: 50px;
 }
 
 .lorem {
@@ -213,14 +213,14 @@ html {
     align-items: center;
     justify-content: center;
     margin-top: -230px;
-    height: 100vh;
+    /* height: 100vh; */
     margin-left: 150px;
     margin-right: 150px;
   }
   .pov {
     font-size: 32px;
     font-weight: bold;
-    margin-top: -150px;
+    margin-top: 50px;
   }
   .lorem {
     text-align: center;
