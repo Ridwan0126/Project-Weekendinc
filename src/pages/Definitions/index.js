@@ -22,9 +22,9 @@ export default class Definitions extends Component {
             <i>-Weekend team</i>
           </div>
         </div>
-        <div>
+        {/* <div>
           <p className="test">Testimonial</p>
-        </div>
+        </div> */}
       </div>
     );
   }

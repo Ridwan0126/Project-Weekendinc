@@ -1,7 +1,13 @@
 import React, { Component } from "react";
+// import swal from "sweetalert";
 import { logos } from "../../assets/image";
 
 export default class Home extends Component {
+  // componentDidMount(){
+  // }
+  // Click = () => {
+  //   swal({})
+  // }
   render() {
     return (
       <div id="backgrounds">

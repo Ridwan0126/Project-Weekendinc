@@ -46,19 +46,24 @@ export default class About extends Component {
     return (
       <>
         <div className="abouts">
-          <div className="App">
-            <Carousel breakPoints={breakPoints}>
-              {Ceck.map((data) => (
-                <>
-                  <Item>
-                    <p className="carus">
-                      <p className="tebal">{data.by}</p>
-                      {data.testimony}
-                    </p>
-                  </Item>
-                </>
-              ))}
-            </Carousel>
+          <div className="Apps">
+            <div>
+              <p className="test">Testimonial</p>
+            </div>
+            <div className="App">
+              <Carousel breakPoints={breakPoints}>
+                {Ceck.map((data) => (
+                  <>
+                    <Item>
+                      <p className="carus">
+                        <p className="tebal">{data.by}</p>
+                        {data.testimony}
+                      </p>
+                    </Item>
+                  </>
+                ))}
+              </Carousel>
+            </div>
           </div>
           <div>
             <div>
