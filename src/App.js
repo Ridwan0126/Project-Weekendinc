@@ -1,19 +1,11 @@
-import "./App.css";
-import { Footer, Header } from "./components";
-import { About, Definitions, Help, Home, You } from "./pages";
+import { Body, Footer, Header } from "./components";
 
 function App() {
   return (
     <>
-      <div className="row">
-        <Header />
-        <Home />
-        <Definitions />
-        <About />
-        <Help />
-        <You />
-        <Footer />
-      </div>
+      <Header />
+      <Body />
+      <Footer />
     </>
   );
 }

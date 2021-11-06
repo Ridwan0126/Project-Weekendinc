@@ -1,9 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
 
+/*
+Css untuk semua
+*/
+
+[class*="col-"] {
+  width: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
 
+/*
+    Css untuk row di body
+*/
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/*
+    Css untuk teks " Weekend From Home "
+*/
 .get-start {
   color: #ffffff;
   text-align: center;
@@ -13,10 +34,22 @@
   font-weight: bold;
 }
 
+/*
+    Css untuk Logo
+*/
+
 .logo-style {
   margin-bottom: 85px;
   text-align: center;
 }
+
+.logo-defin {
+  text-align: right;
+}
+
+/*
+    Css untuk teks "  Stay active with a little workout "
+*/
 
 .desk {
   color: #ffffff;
@@ -27,9 +60,9 @@
   font-family: "Work Sans", Extra-light 200 italic;
 }
 
-.ket {
-  align-items: center;
-}
+/*
+    Css untuk set baground Home
+*/
 
 #backgrounds {
   height: 100%;
@@ -37,14 +70,22 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #eebece;
-  background-image: url("../src/assets/image/bg1.png");
+  background-image: url("../../src/assets/image/bg1.png");
 }
+
+/*
+    Css untuk page Abouts 
+*/
 
 .abouts {
   background-color: black;
   color: #ffffff;
   text-align: center;
 }
+
+/*
+    Css untuk text " Testimonial "
+*/
 
 .test {
   margin-top: -100px;
@@ -53,23 +94,25 @@
   font-size: 32px;
 }
 
+/*
+    Css untuk page Definitions
+*/
+
 .defin {
   background-color: #eebece;
 }
 
-.logo-defin {
-  text-align: right;
-  margin-top: 75px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: block;
-}
+/*
+    Css untuk font pada html
+*/
 
 html {
   font-family: "Lucida Sans", sans-serif;
 }
+
+/*
+    Css untuk footer
+*/
 
 .wkn {
   display: flex;
@@ -80,7 +123,7 @@ html {
   font-weight: bold;
 }
 
-/* CSS untuk stye tampilan defalut*/
+/* CSS untuk stye tampilan defalut */
 
 .header {
   background-color: #ffffff;
@@ -229,8 +272,8 @@ html {
     color: #ffffff;
     margin-bottom: -90px;
   }
-  [class*="col-"] {
-    width: 100%;
+  .logo-defin {
+    text-align: right;
   }
 }
 
@@ -313,8 +356,8 @@ html {
     color: #ffffff;
     margin-bottom: 50px;
   }
-  [class*="col-"] {
-    width: 100%;
+  .logo-defin {
+    text-align: right;
   }
 }
 
@@ -395,10 +438,6 @@ html {
     color: #ffffff;
     margin-bottom: 50px;
   }
-}
-
-[class*="col-"] {
-  width: 100%;
 }
 
 /* CSS untuk Style Teks*/

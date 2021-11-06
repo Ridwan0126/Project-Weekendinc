@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Help.css";
+import "../../Css/Help.css";
 import Icons from "../../assets/icon/Oval.svg";
 import swal from "sweetalert";
 
@@ -11,6 +11,7 @@ export default class Help extends Component {
       data: [],
     };
   }
+
   componentDidMount() {
     const urlFetch = fetch(
       "https://wknd-take-home-challenge-api.herokuapp.com/help-tips"

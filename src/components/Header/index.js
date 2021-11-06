@@ -4,7 +4,7 @@ import { Bitmap } from "../../assets/image";
 class Header extends Component {
   render() {
     return (
-      <div class="header">
+      <div className="header">
         <img
           src={Bitmap}
           alt="Girl in a jacket"
