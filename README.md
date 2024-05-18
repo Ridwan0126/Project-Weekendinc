@@ -8,4 +8,8 @@ File Design untuk tampilan (https://www.figma.com/file/BvgVv93I1r3NT8uHM4AWoh/WK
 
 <img src="https://github.com/Ridwan0126/Project-Weekendinc/blob/7fd06fe67301db6f0b24a14cacfca4205fdc2e4f/Screenshot%20(75)%20-%20Copy.png" alt="Awesome README Templates" />
 <img src="https://github.com/Ridwan0126/Project-Weekendinc/blob/d9f29c30b99bca754a355a9eaf237558ef33f2c0/Screenshot%20(76)%20-%20Copy.png" alt="Awesome README Templates" />
+<img src="https://github.com/Ridwan0126/Project-Weekendinc/blob/742269009ee2067fd76337fae1d7794b6226fc4f/Screenshot%20(77)%20-%20Copy.png" alt="Awesome README Templates" />
+<img src="https://github.com/Ridwan0126/Project-Weekendinc/blob/d9f29c30b99bca754a355a9eaf237558ef33f2c0/Screenshot%20(76)%20-%20Copy.png" alt="Awesome README Templates" />
+<img src="https://github.com/Ridwan0126/Project-Weekendinc/blob/d9f29c30b99bca754a355a9eaf237558ef33f2c0/Screenshot%20(76)%20-%20Copy.png" alt="Awesome README Templates" />
+
 
